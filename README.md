@@ -2,20 +2,28 @@
 
 This is a Claude Code plugin that helps enhance your prompts. It analyses your repo's files, asks you some questions and sends Claude an enhanced version of your prompt.
 
-## Commands
-
-- `/enhance`: The main command. You give it a task, it analyses the repo, asks you some follow-up questions, and then lets you review the plan before it runs.
-
 ## How to install
 
 First add the marketplace:
-```
+```bash
 claude plugin marketplace add integralbyte/ponder-cc
 ```
 
 Then install the plugin:
+```bash
+claude plugin install ponder@ponder-cc
 ```
-claude plugin install ponder
+
+## Commands
+
+- `/ponder:enhance`: The main command. You give it a task, it analyses the repo, asks you some follow-up questions, and then lets you review the plan before it runs.
+
+## Usage
+
+Run the `/ponder:enhance` command followed by your prompt:
+
+```bash
+/ponder:enhance add authentication to my app
 ```
 
 ## How it works
