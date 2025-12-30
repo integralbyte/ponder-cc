@@ -1,0 +1,8 @@
+{
+    "name": "ponder",
+    "description": "Intercepts prompts, analyzes repository context, asks clarifying questions, and rewrites prompts into high-quality, repo-aware instructions",
+    "version": "1.1.0",
+    "author": {
+        "name": "integralbyte"
+    }
+}

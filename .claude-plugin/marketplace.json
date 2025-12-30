@@ -1,0 +1,13 @@
+{
+    "name": "Ponder",
+    "description": "Improves prompt quality automatically by resolving ambiguity, and enforcing clarity and structure prior to execution. Usage: /enhance <prompt>.",
+    "owner": {
+        "name": "integralbyte"
+    },
+    "plugins": [
+        {
+            "name": "ponder",
+            "source": "ponder"
+        }
+    ]
+}
