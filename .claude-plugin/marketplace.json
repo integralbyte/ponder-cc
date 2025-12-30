@@ -7,7 +7,7 @@
     "plugins": [
         {
             "name": "ponder",
-            "source": "ponder"
+            "source": "./ponder"
         }
     ]
 }
