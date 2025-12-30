@@ -1,5 +1,5 @@
 {
-    "name": "Ponder",
+    "name": "ponder-cc",
     "description": "Improves prompt quality automatically by resolving ambiguity, and enforcing clarity and structure prior to execution. Usage: /enhance <prompt>.",
     "owner": {
         "name": "integralbyte"
